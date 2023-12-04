@@ -1,0 +1,97 @@
+/* Reset default margin and padding */
+.login-btn {
+  padding: 8px 16px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: white;
+  color : gray;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark theme styles */
+body {
+  background-image: url("fitness.webp");
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+}
+
+nav ul.menu {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul.menu li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul.menu li a:hover {
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+.hero p{
+  color: aliceblue;
+
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: rgb(235, 234, 239);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:transparent; 
+  border-radius: 10px;
+ 
+}
+
+.content h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-display:rgb(28, 227, 161); 
+  color: white;
+}
+
+.content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: white;
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}

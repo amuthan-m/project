@@ -1,0 +1,162 @@
+/* Timer.css */
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.dark-theme {
+  background:none;
+  color: whitesmoke;
+}
+
+.timer {
+  text-align: center;
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.timer.active {
+  background-color: #27ae60;
+}
+
+.timer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.water-reminder {
+  font-size: 18px;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.start-stop {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.start {
+  background-color: #e74c3c;
+}
+
+.start:hover {
+  background-color: #c0392b;
+}
+
+.stop {
+  background-color: #27ae60;
+}
+
+.stop:hover {
+  background-color: #219e4f;
+}
+
+.reset {
+  background-color: #95a5a6;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reset:hover {
+  background-color: #7f8c8d;
+}
+
+.lap {
+  background-color: #3498db;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.lap:hover {
+  background-color: #2980b9;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option {
+  margin: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.option:hover,
+.option.selected {
+  background-color: #2980b9;
+}
+
+.laps {
+  text-align: center;
+}
+
+.laps h3 {
+  color: #3498db;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin: 5px;
+  color: #ecf0f1;
+}
+/* App.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
